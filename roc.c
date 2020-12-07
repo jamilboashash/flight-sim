@@ -47,7 +47,7 @@ typedef enum {
 // Given code, print the relevant status message and return the code.
 Status print_status(Status code) {
     char* const status[] = {"",
-            "Usage: roc2310 id mapper {airports}",
+            "Usage: roc id mapper {airports}",
             "Invalid mapper port",
             "Mapper required",
             "Failed to connect to mapper",

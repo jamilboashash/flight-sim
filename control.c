@@ -52,7 +52,7 @@ typedef enum {
 // Given code, print the relevant status message and return the code.
 Status print_status(Status code) {
     char* const status[] = {"",
-            "Usage: control2310 id info [mapper]",
+            "Usage: control id info [mapper]",
             "Invalid char in parameter",
             "Invalid port",
             "Can not connect to map",
